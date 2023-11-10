@@ -48,7 +48,7 @@ namespace SegurosAgro.Controllers
             return Ok();
         }
 
-        [HttpPost("cambisGit")]
+        [HttpPost("cambi")]
         public IActionResult CambiosGit([FromBody] AsignaciónSeguro NuevaAsignacion)
         {
 
